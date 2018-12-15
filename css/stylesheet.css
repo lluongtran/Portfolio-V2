@@ -36,6 +36,8 @@ footer {
 
 .bg-2 { 
     background-color: #ffffff; 
+    margin-left: 5px;
+    margin-right: 5px;
     border-radius: 5px;
     box-shadow: 2px 5px 12px #888888;
     color: #00264d;
