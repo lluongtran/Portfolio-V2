@@ -121,6 +121,31 @@ footer {
 /*END OF OVERLAY CODE*/
 
 
+.background-squirrl{
+  background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );
+}
+
+.background-nolimits{
+  background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );
+}
+
+.background-vos{
+  background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );
+}
+
+.background-pinagraph{
+  background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );
+}
+
+.background-ntt{
+  background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
+}
+
+.img-responsive:hover{
+    filter: drop-shadow(10px 10px 2.5px rgba(0,0,0,0.3));
+    transform: scale(1.025);
+}
+
 
 
 
@@ -151,7 +176,7 @@ a:hover {
 }
 
 @keyframes navbar-brand-pulse {
-    50% { transform: scale(0.9)}
+    50% { transform: scale(0.95)}
     100% { transform: scale(1)}
    }
 
@@ -162,30 +187,7 @@ a:hover {
     -webkit-transition: 1s;
 }
 
-.background-squirrl{
-  background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );
-}
 
-.background-nolimits{
-  background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );
-}
-
-.background-vos{
-  background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );
-}
-
-.background-pinagraph{
-  background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );
-}
-
-.background-ntt{
-  background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
-}
-
-.img-responsive:hover{
-    filter: drop-shadow(10px 10px 2.5px rgba(0,0,0,0.3));
-    transform: scale(1.025);
-}
 
 /*fade-in css*/
 
