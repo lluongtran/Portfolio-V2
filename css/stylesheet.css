@@ -6,7 +6,11 @@ body {
   -o-background-size: cover;
 }
 
-     
+.navbar-inverse {
+  background-color: #ffffff;
+  border-color: none;
+}
+
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -23,14 +27,14 @@ footer {
 .bg-1 { 
     background-image: linear-gradient(to bottom right, #001a33, #00264d,#006699, #1ac6ff); 
     border-radius: 5px;
-    box-shadow: 2px 5px 12px #888888;
+    box-shadow: 1px 2.5px 5px #888888;
     color: #ffffff;
     transition: 1s;
     -webkit-transition: 1s;
 }
 
 .bg-1:hover {
-    box-shadow: 6px 15px 36px #888888;
+    box-shadow: 2px 5px 10px #888888;
     transform: scale(1.0025);
 }
 
@@ -39,15 +43,15 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
     border-radius: 5px;
-    box-shadow: 2px 5px 12px #888888;
+    box-shadow: 1px 2.5px 5px #888888;
     color: #00264d;
     transition: 1s;
     -webkit-transition: 1s;
 }
 
 .bg-2:hover {
-    box-shadow: 6px 15px 36px #888888;
-    transform: scale(1.0025);
+    box-shadow: 2px 5px 10px #888888;
+    transform: scale(1.005);
 }
 
 
@@ -141,13 +145,18 @@ footer {
   background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
 }
 
-.img-responsive:hover{
-    filter: drop-shadow(10px 10px 2.5px rgba(0,0,0,0.3));
-    transform: scale(1.025);
+
+.img-responsive{
+  border-radius: 5px;
+  filter: drop-shadow(1px 2.5px 5px #888888);
+  transition: 1s;
+  -webkit-transition: 1s;
 }
 
-
-
+.img-responsive:hover{
+  filter: drop-shadow(2px 5px 10px #888888);
+  transform: scale(1.05);
+}
 
 a:link {
     text-decoration: none;
@@ -180,12 +189,6 @@ a:hover {
     100% { transform: scale(1)}
    }
 
-.img-responsive{
-    border-radius: 5px;
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
-    transition: 1s;
-    -webkit-transition: 1s;
-}
 
 
 
