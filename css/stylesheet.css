@@ -51,6 +51,76 @@ footer {
 }
 
 
+/*OVERLAY CODE*/
+
+.project-container {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.project-description {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.squirrl-overlay,
+.nolimits-overlay,
+.vos-overlay,
+.pinagraph-overlay,
+.ntt-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+
+.squirrl-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #1D0232, #6E15B2, #9205FF );
+  border-radius: 5px;
+}
+
+.nolimits-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #fd6e16, #FF8C42, #ffa46c );
+  border-radius: 5px;
+}
+
+.vos-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #0a2f58, #316BAF,#6095d1 );
+  border-radius: 5px;
+}
+
+.pinagraph-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #038cb6, #01A9DB, #66ffff );
+  border-radius: 5px;
+}
+
+.ntt-overlay:hover {
+  opacity: .90;
+  background-image: linear-gradient(to bottom right, #072744, #063058, #10528f );
+  border-radius: 5px;
+}
+
+
+/*END OF OVERLAY CODE*/
+
+
 
 
 
